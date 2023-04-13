@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Edu+VIC+WA+NT+Beginner&family=Permanent+Marker&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#d2b48c;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.quiz-container{
+    background-color: #fff;
+    width: 600px;
+    max-width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+}
+.quiz-header{
+    padding: 4rem;
+}
+h1{
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color: #6f4685;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    padding: 1.3rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+button:hover{
+    background-color: #9966cc;
+}
+h2{
+    padding: 1rem;
+    text-align: center;
+}
